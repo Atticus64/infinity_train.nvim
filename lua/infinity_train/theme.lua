@@ -57,7 +57,7 @@ M.set_highlights = function(color)
 	hl(0, "TermCursorNC", { fg = c.cursor, bg = c.cursor })
 
 	-- Visual
-	hl(0, "Visual", { fg = c.bg, bg = '#c2c2c2' })
+	hl(0, "Visual", { fg = c.bg, bg = '#3b3f4c' })
 	hl(0, "VisualNOS", { fg = 'NONE', bg = c.alt })
 
 	-- Diff
