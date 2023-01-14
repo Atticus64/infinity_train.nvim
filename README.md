@@ -23,13 +23,15 @@
 Add in your file of lua with plugins
 
 ```lua
-use 'Atticus64/infinity_train.nvim'
+use { 'Atticus64/infinity_train.nvim' }
+vim.cmd.colorscheme('tulip')
 ```
 
 If you use Vim Plug
 
 ```vim
 Plug 'Atticus64/infinity_train.nvim'
+colorscheme tulip
 ```
 
 ### [:notebook_with_decorative_cover:] Todo
