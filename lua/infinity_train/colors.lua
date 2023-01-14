@@ -3,6 +3,8 @@ local M = {}
 M.dark = {
 	-- code highlighting
 	selection    = "#3b3f4c",
+	structures   = "#E49556",
+	special      = '#F1f19d',
 	boolean      = "#f89975",
 	bg           = "#282c34",
 	property     = "#8ab5dc",

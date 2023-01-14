@@ -68,7 +68,7 @@ M.set_highlights = function(color)
 
 	-- Match
 	hl(0, "MatchWord", { fg = 'NONE', bg = 'NONE', underline = true, })
-	hl(0, "MatchParen", { fg = c.braces, bg = 'NONE', underline = true, })
+	hl(0, "MatchParen", { fg = c.constant, bg = 'NONE', underline = true, })
 	hl(0, "MatchWordCur", { fg = 'NONE', bg = 'NONE', underline = true, })
 	hl(0, "MatchParenCur", { fg = 'NONE', bg = 'NONE', underline = true, })
 
@@ -130,7 +130,7 @@ M.set_highlights = function(color)
 	hl(0, "Include", { fg = c.preproc, bg = 'NONE' })
 	hl(0, "Exception", { fg = c.var, bg = 'NONE' })
 	hl(0, "StorageClass", { fg = c.var, bg = 'NONE' })
-	hl(0, "Structure", { fg = c.braces, bg = 'NONE' })
+	hl(0, "Structure", { fg = c.structures, bg = 'NONE' })
 	hl(0, "Typedef", { fg = c.preproc, bg = 'NONE' })
 	hl(0, "Define", { fg = c.preproc, bg = 'NONE' })
 	hl(0, "Macro", { fg = c.preproc, bg = 'NONE' })
@@ -149,7 +149,7 @@ M.set_highlights = function(color)
 	hl(0, "Statement", { fg = c.preproc, bg = 'NONE' })
 	hl(0, "Identifier", { fg = c.identifier, bg = 'NONE' })
 	hl(0, "PreCondit", { fg = c.preproc, bg = 'NONE' })
-	hl(0, "Special", { fg = c.braces, bg = 'NONE' })
+	hl(0, "Special", { fg = c.special, bg = 'NONE' })
 	hl(0, "SpecialComment", { fg = c.info, bg = 'NONE' })
 
 	--------------------------------------------------------
