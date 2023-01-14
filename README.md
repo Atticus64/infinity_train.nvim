@@ -1,5 +1,7 @@
 # Infinity_Train.nvim
 
+<img src="https://i.postimg.cc/L4c1np3J/infinity-trian-nvim.png" width="400">
+
 ## [:wrench:] Features
 
 - Dark theme
