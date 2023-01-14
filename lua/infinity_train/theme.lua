@@ -117,7 +117,7 @@ M.set_highlights = function(color)
 	hl(0, "Number", { fg = c.num, bg = 'NONE' })
 	hl(0, "Float", { fg = c.num, bg = 'none' })
 
-	hl(0, "boolean", { fg = c.var, bg = 'none' })
+	hl(0, "boolean", { fg = c.boolean, bg = 'none' })
 	hl(0, "constant", { fg = c.constant, bg = 'none' })
 	hl(0, "type", { fg = c.type, bg = 'none' })
 
@@ -158,6 +158,8 @@ M.set_highlights = function(color)
 
 	hl(0, "TSComment", { link = 'Comment' })
 	hl(0, "@parameter", { fg = c.parameter, bg = 'None' })
+	hl(0, "@attribute", { fg = c.property, bg = 'None' })
+	hl(0, "@field", { fg = c.property, bg = 'None' })
 	hl(0, "@property", { fg = c.property, bg = 'None' })
 	hl(0, "TSVariable", { link = 'Variable' })
 	hl(0, "TSString", { link = 'String' })
