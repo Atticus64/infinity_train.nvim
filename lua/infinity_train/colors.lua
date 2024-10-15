@@ -19,7 +19,7 @@ M.dark = {
 	identifier   = "#dadada",
 	fg           = "#Cecec7",
 	alt          = "#262026",
-	opt          = "#2bb5e6",
+	opt          = "#636D83",
 	buffer       = "#1c1c1b",
 	parameter    = "#F39797",
 	num          = "#D29d1d",
@@ -41,7 +41,7 @@ M.dark = {
 
 	-- lualine modes
 	term    = "#84de8e",
-	normal  = "#77bbd8",
+	normal  = "#ffffff",
 	insert  = "#C6d47e",
 	visual  = "#D8b877",
 	command = "#D4ab7e",
