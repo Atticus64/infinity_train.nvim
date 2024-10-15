@@ -37,7 +37,7 @@ M.dark = {
 	hint         = "#ac7d88",
 	info         = "#cccccc",
 	imports      = "#36bad4",
-	preproc      = "#1C82AD",
+	preproc      = "#32CBFF",
 	comment      = "#717777",
 
 	-- lualine modes
